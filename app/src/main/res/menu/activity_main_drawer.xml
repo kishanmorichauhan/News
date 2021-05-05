@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/live"
+            android:title="@string/divya_bhaskar"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/live"
+            android:title="@string/gujarat_samachar"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/live"
+            android:title="@string/sandesh"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/aajtak"
+            android:icon="@drawable/live"
+            android:title="@string/aaj_tak"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/bbc"
+            android:icon="@drawable/live"
+            android:title="@string/bbc"
+            android:menuCategory="secondary"/>
+    </group>
+
+    <item android:title="About"
+        android:menuCategory="secondary">
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:title="About"
+                android:menuCategory="secondary"/>
+        </menu>
+
+    </item>
+</menu>

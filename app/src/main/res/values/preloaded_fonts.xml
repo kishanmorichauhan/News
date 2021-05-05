@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/akronim</item>
+        <item>@font/allerta_stencil</item>
+        <item>@font/atma_medium</item>
+        <item>@font/black_ops_one</item>
+        <item>@font/sonsie_one</item>
+        <item>@font/tillana_medium</item>
+    </array>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.newnavigation.ui.DivyaBhaskar.HomeFragment"
+        android:label="@string/divya_bhaskar"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.newnavigation.ui.GujaratSamachar.GalleryFragment"
+        android:label="@string/gujarat_samachar"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.newnavigation.ui.Sandesh.SlideshowFragment"
+        android:label="@string/sandesh"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/aajtak"
+        android:name="com.example.newnavigation.fragment.aajtak"
+        android:label="@string/aaj_tak"
+        tools:layout="@layout/fragment_aajtak" />
+    <fragment
+        android:id="@+id/bbc"
+        android:name="com.example.newnavigation.fragment.bbc"
+        android:label="@string/bbc"
+        tools:layout="@layout/fragment_bbc" />
+    <fragment
+        android:id="@+id/about"
+        android:name="com.example.newnavigation.fragment.About"
+        android:label="@string/About"
+        tools:layout="@layout/fragment_about" />
+</navigation>
